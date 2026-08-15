@@ -27,8 +27,8 @@ export interface InterviewQuestion {
 
 export interface InterviewOption {
   text: string;
-  personalityImpact: Partial<PersonalityImpact>;
-  relationshipImpact: Partial<RelationshipImpact>;
+  personalityImpact?: Partial<PersonalityImpact>;
+  relationshipImpact?: Partial<RelationshipImpact>;
 }
 
 export interface PersonalityImpact {
